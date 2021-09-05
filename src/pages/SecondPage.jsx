@@ -5,6 +5,7 @@ export class SecondPage extends Component {
   constructor() {
     super();
     this.state = {
+      // initial, array-ul este gol pana ce datele vin de la back-end
       news: [],
     };
   }

@@ -5,10 +5,11 @@ export class SecondPage extends Component {
   constructor() {
     super();
     this.state = {
+      // initial, array-ul este gol pana ce datele vin de la back-end
       news: [],
     };
   }
-  //   functia de redirectionare catre pagina a doua din aplicatie
+  // functia de redirectionare catre pagina a doua din aplicatie
   handleUpdate() {
     window.location.replace("/");
   }
